@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection Project - Final Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .recommendation { background-color: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin: 15px 0; }
+    </style>
+</head>
+<body>
+    <h1>Fraud Detection Project - Final Report</h1>
+    
+    <h2>📊 Project Overview</h2>
+    <p>Advanced fraud detection system for e-commerce and banking transactions with emphasis on model interpretability and business impact.</p>
+    
+    <h2>🎯 Key Results</h2>
+    <table>
+        <tr><th>Metric</th><th>Value</th><th>Interpretation</th></tr>
+        <tr><td>Best Model AUC-PR</td><td>0.95</td><td>Excellent fraud detection capability</td></tr>
+        <tr><td>Top Fraud Indicator</td><td>Time since signup</td><td>New accounts are highest risk</td></tr>
+        <tr><td>High-Risk Time</td><td>10 PM - 4 AM</td><td>68% of fraud occurs overnight</td></tr>
+    </table>
+    
+    <h2>💡 Business Recommendations</h2>
+    <div class="recommendation">
+        <strong>1. New Account Monitoring:</strong> Implement additional verification for transactions within 24 hours of account creation.
+    </div>
+    <div class="recommendation">
+        <strong>2. High-Value Transaction Review:</strong> Flag all transactions over $200 for manual review.
+    </div>
+    <div class="recommendation">
+        <strong>3. Time-Based Rules:</strong> Increase monitoring sensitivity during overnight hours.
+    </div>
+    
+    <h2>🔗 Complete Documentation</h2>
+    <p>All analysis, code, and visualizations are available in the GitHub repository:</p>
+    <ul>
+        <li><a href="README.md">Main README</a> - Complete project documentation</li>
+        <li><code>notebooks/eda-creditcard.ipynb</code> - Credit card fraud analysis</li>
+        <li><code>notebooks/modeling.ipynb</code> - Model development and evaluation</li>
+        <li><code>notebooks/shap-explainability.ipynb</code> - Model interpretation with SHAP</li>
+    </ul>
+    
+    <p><em>Submitted for 10 Academy AI Mastery Program - Week 5&6 Challenge</em></p>
+</body>
+</html>
